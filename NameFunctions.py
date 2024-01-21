@@ -21,7 +21,7 @@ def namefunc3():
 namefunc3() # First will ask the user to enter their first name and then will say: Hello, <user_entered_name>.
 
 # 4.) Advanced Name function. Splits a first and second name from a string into separate values. Also has some checks in place. 
-def namefunc3():
+def namefunc4():
     full_name = input("Enter your full name: ")
     full_name_dict = full_name.split(' ')
     
@@ -34,4 +34,4 @@ def namefunc3():
         lname = full_name_dict[1]
         print(f"Hello, {fname} {lname}!")
 
-namefunc()
+namefunc4()
