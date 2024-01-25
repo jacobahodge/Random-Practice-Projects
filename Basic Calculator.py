@@ -1,6 +1,23 @@
-def add(a, b):
-  a = float(input("Please enter a number"))
-  b = float(input(f"Please enter a second number to add to {a}"))
+def add():
+  a = float(input("Please enter a number: "))
+  b = float(input(f"Please enter a second number to add to {a}: "))
   c = a + b
+  print(f"{a} + {b} = {c}")
 
-add()
+def subtract():
+    a = float(input("Please enter a number: "))
+    b = float(input(f"Please enter a number to be subtracted from {a} : "))
+    c = a - b 
+    print(f"{a} - {b} = {c}")
+
+def multiply():
+    a = float(input("Please enter a number: "))
+    b = float(input(f"Please enter a number to be multipled from {a} : "))
+    c = a * b 
+    print(f"{a} * {b} = {c}")
+
+def divide():
+    a = float(input("Please enter a number: "))
+    b = float(input(f"Please enter a number to be devided from {a} : "))
+    c = a / b 
+    print(f"{a} / {b} = {c}")
