@@ -18,6 +18,6 @@ def multiply():
 
 def divide():
     a = float(input("Please enter a number: "))
-    b = float(input(f"Please enter a number to be devided from {a} : "))
+    b = float(input(f"Please enter a number to be divided from {a} : "))
     c = a / b 
     print(f"{a} / {b} = {c}")
